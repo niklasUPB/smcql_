@@ -28,6 +28,18 @@ CREATE TABLE remote_diagnoses (
     clean_icd9 character varying,
     major_icd9 character varying
 );
+--my own stuff
+DROP TABLE IF EXISTS take;
+CREATE TABLE take(
+	take_id integer,
+	take_test integer);
+DROP TABLE IF EXISTS me;
+CREATE TABLE me(me_id integer,
+me_test integer );
+DROP TABLE IF EXISTS home;
+CREATE TABLE home(home_id integer,
+home_test integer);
+
 
 CREATE TABLE diagnoses (
     patient_id integer NOT NULL,
@@ -148,6 +160,22 @@ GRANT SELECT(primary_) ON diagnoses TO public_attribute;
 GRANT SELECT(diag_src) ON diagnoses TO protected_attribute;
 GRANT SELECT(icd9) ON diagnoses TO protected_attribute;
 GRANT SELECT(major_icd9) ON diagnoses TO protected_attribute;
+
+
+--
+
+
+GRANT SELECT(take_id) ON take TO protected_attribute;
+GRANT SELECT(take_test) ON take TO protected_attribute;
+
+
+GRANT SELECT(me_id) ON me TO pprotected_attribute;
+GRANT SELECT(me_test) ON me TO protected_attribute; 
+
+
+--GRANT SELECT(home_id) ON home TO public_attribute;
+--GRANT SELECT(home_test) ON home TO protected_attribute;
+--
 
 
 GRANT SELECT(patient_id) ON cdiff_cohort_diagnoses TO public_attribute;

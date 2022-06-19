@@ -30,7 +30,7 @@ final class Garbler implements java.io.Serializable{
 	byte[] bArray = new byte[GCSignal.len*2+8];
 	private void getPadding(GCSignal lb0, GCSignal lb1, long k, GCSignal ret) {
 		ByteBuffer buffer = ByteBuffer.allocate(GCSignal.len*2+8); 
-		buffer.clear();
+		((java.nio.Buffer) buffer).clear();
 		try {
 			sha1 = MessageDigest.getInstance("SHA-1");
 		} catch (Exception e) {

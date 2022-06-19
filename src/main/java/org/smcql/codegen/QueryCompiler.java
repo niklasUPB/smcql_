@@ -373,7 +373,10 @@ public class QueryCompiler {
 	
 	
 	private ExecutionStep generateSecureStep(Operator op, List<ExecutionStep> children, List<Operator> opsToCombine, List<ExecutionStep> merges) throws Exception {
+		//java.lang.System.out.print(op);
+		//java.lang.System.out.print("#####");
 		SecureOperator secOp = SecureOperatorFactory.get(op);
+		//java.lang.System.out.print(secOp);
 		if (!merges.isEmpty())
 			secOp.setMerges(merges);
 		
