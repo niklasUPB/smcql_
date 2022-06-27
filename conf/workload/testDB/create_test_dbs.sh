@@ -29,9 +29,12 @@ do
 
 
    
-
+  
     psql $dbName -c "\COPY take FROM '$path/conf/workload/testDB/$i/take.csv' WITH DELIMITER ','" 
+    
+    
     psql $dbName -c "\COPY me FROM '$path/conf/workload/testDB/$i/me.csv' WITH DELIMITER ','"
+    
     psql $dbName -c "\COPY home FROM '$path/conf/workload/testDB/$i/home.csv' WITH DELIMITER ','"
     
 
