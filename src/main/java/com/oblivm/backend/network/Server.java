@@ -9,9 +9,10 @@ public class Server extends Network {
 
 	public void listen(int port) {
 		try {
-			serverSock = new ServerSocket(port);
+			System.out.println("listen ");
+			serverSock = new ServerSocket(61001);
 			sock = serverSock.accept(); // wait for client to connect
-
+			System.out.println("this is surp");
 			os = new BufferedOutputStream(sock.getOutputStream());
 			is = new BufferedInputStream(sock.getInputStream());
 		} catch (IOException e) {

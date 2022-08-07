@@ -271,6 +271,7 @@ public class SystemConfiguration {
 	}
 
 	public int readAndIncrementPortCounter() {
+		//System.out.println("hihi ");
 		++portCounter;
 		return portCounter;
 	}

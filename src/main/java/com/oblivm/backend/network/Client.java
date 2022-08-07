@@ -16,10 +16,12 @@ public class Client extends Network {
 
 	public void connect(String server, int port) throws InterruptedException {
 		try{
+			System.out.println("connect ");
 			while (true) {
 				try {
 					sock = new java.net.Socket(server, port); // create socket and
 					// connect
+					System.out.println("loop ");
 					if (sock != null)
 						break;
 				} catch(IOException e){

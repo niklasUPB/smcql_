@@ -43,6 +43,7 @@ public class Network {
 
 	public void disconnect() {
 		try {
+			
 			if(THREADEDIO) {
 				queue.destory();
 				os.flush();
