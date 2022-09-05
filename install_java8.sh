@@ -1,3 +1,1 @@
-sudo add-apt-repository ppa:openjdk-r/ppa
-sudo apt-get update
-sudo apt-get install openjdk-8-jdk
+wget https://download.oracle.com/java/18/latest/jdk-18_linux-x64_bin.deb 
