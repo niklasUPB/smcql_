@@ -32,13 +32,19 @@ CREATE TABLE remote_diagnoses (
 DROP TABLE IF EXISTS take;
 CREATE TABLE take(
 	take_id integer,
-	take_test integer);
+	take_test integer,
+	take_1 integer,
+	take_2 integer);
 DROP TABLE IF EXISTS me;
 CREATE TABLE me(me_id integer,
-me_test integer );
+	me_test integer,
+	me_1 integer,
+	me_2 integer);
 DROP TABLE IF EXISTS home;
 CREATE TABLE home(home_id integer,
-home_test integer);
+home_test integer,
+home_1 integer,
+home_2 integer);
 
 
 CREATE TABLE diagnoses (
