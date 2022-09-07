@@ -171,12 +171,12 @@ GRANT SELECT(major_icd9) ON diagnoses TO protected_attribute;
 --
 
 
---GRANT SELECT(take_id) ON take TO protected_attribute;
-GRANT SELECT(take_test) ON take TO protected_attribute;
+GRANT SELECT(take_id) ON take TO protected_attribute;
+--GRANT SELECT(take_test) ON take TO protected_attribute;
 
 
---GRANT SELECT(me_id) ON me TO protected_attribute;
-GRANT SELECT(me_test) ON me TO protected_attribute; 
+GRANT SELECT(me_id) ON me TO protected_attribute;
+--GRANT SELECT(me_test) ON me TO protected_attribute; 
 
 
 GRANT SELECT(home_id) ON home TO protected_attribute;
