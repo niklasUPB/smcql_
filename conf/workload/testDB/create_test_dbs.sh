@@ -30,13 +30,14 @@ do
 
    
   
-    psql $dbName -c "\COPY take FROM '$path/conf/workload/testDB/$i/take.csv' WITH DELIMITER ','" 
+    psql $dbName -c "\COPY A_use_case1 FROM '$path/conf/workload/testDB/$i/A_use_case1.csv' WITH DELIMITER ','" 
+    psql $dbName -c "\COPY B_use_case1 FROM '$path/conf/workload/testDB/$i/B_use_case1.csv' WITH DELIMITER ','"
+    psql $dbName -c "\COPY B_use_case2 FROM '$path/conf/workload/testDB/$i/B_use_case2.csv' WITH DELIMITER ','"
     
-    
-    psql $dbName -c "\COPY me FROM '$path/conf/workload/testDB/$i/me.csv' WITH DELIMITER ','"
-    
-    psql $dbName -c "\COPY home FROM '$path/conf/workload/testDB/$i/home.csv' WITH DELIMITER ','"
-    
+    #psql $dbName -c "\COPY home FROM '$path/conf/workload/testDB/$i/home.csv' WITH DELIMITER ','"
+    psql $dbName -c "\COPY A_use_case4 FROM '$path/conf/workload/testDB/$i/A_use_case4.csv' WITH DELIMITER ','"
+    psql $dbName -c "\COPY B_use_case4 FROM '$path/conf/workload/testDB/$i/B_use_case4.csv' WITH DELIMITER ','"
+    psql $dbName -c "\COPY B_use_case2 FROM '$path/conf/workload/testDB/$i/B_use_case2.csv' WITH DELIMITER ','"
 
 	
 

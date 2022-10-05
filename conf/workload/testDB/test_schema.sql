@@ -28,23 +28,33 @@ CREATE TABLE remote_diagnoses (
     clean_icd9 character varying,
     major_icd9 character varying
 );
+--------------------
 --my own stuff
-DROP TABLE IF EXISTS take;
-CREATE TABLE take(
-	take_id integer,
-	take_test integer,
-	take_1 integer,
-	take_2 integer);
-DROP TABLE IF EXISTS me;
-CREATE TABLE me(me_id integer,
-	me_test integer,
-	me_1 integer,
-	me_2 integer);
-DROP TABLE IF EXISTS home;
-CREATE TABLE home(home_id integer,
-home_test integer,
-home_1 integer,
-home_2 integer);
+--DROP TABLE IF EXISTS take;
+--CREATE TABLE take(take_id integer,take_test integer,take_test2 integer,take_test3 integer);
+DROP TABLE IF EXISTS A_use_case1;
+CREATE TABLE A_use_case1(A_use_case1_id integer, A_use_case1_1 integer, A_use_case1_2 integer, A_use_case1_3 integer);
+
+DROP TABLE IF EXISTS B_use_case1;
+CREATE TABLE B_use_case1(B_use_case1_id integer, B_use_case1_1 integer, B_use_case1_2 integer, B_use_case1_3 integer);
+DROP TABLE IF EXISTS A_use_case4;
+CREATE TABLE A_use_case4(
+	A_use_case4_id integer,
+	A_use_case4_bool integer);
+DROP TABLE IF EXISTS B_use_case4;
+CREATE TABLE B_use_case4(
+	B_use_case4_id integer,
+	B_use_case4_bool integer);
+CREATE TABLE B_use_case2(
+	use_case2_id integer,
+	B_use_case2_bool integer);
+CREATE TABLE A_use_case2(
+	use_case2_id integer,
+	A_use_case2_bool integer);
+
+
+
+----------------------
 
 
 CREATE TABLE diagnoses (
@@ -158,6 +168,8 @@ CREATE TABLE test (
 
 -- set up security level of attributes
 -- default setting: attribute is private
+--DROP ROLE public_attribute;
+--DROP ROLE protected_attribute;
 CREATE ROLE public_attribute;
 CREATE ROLE protected_attribute;
 GRANT SELECT(patient_id) ON diagnoses TO public_attribute;
@@ -170,17 +182,34 @@ GRANT SELECT(major_icd9) ON diagnoses TO protected_attribute;
 
 --
 
-
-GRANT SELECT(take_id) ON take TO protected_attribute;
+GRANT SELECT(use_case2_id) ON A_use_case2 TO protected_attribute;
+GRANT SELECT(use_case2_id) ON B_use_case2 TO protected_attribute;
+GRANT SELECT(A_use_case2_bool) ON A_use_case2 TO protected_attribute;
+GRANT SELECT(B_use_case2_bool) ON B_use_case2 TO protected_attribute;
+--GRANT SELECT(take_id) ON take TO protected_attribute;
 --GRANT SELECT(take_test) ON take TO protected_attribute;
 
 
-GRANT SELECT(me_id) ON me TO protected_attribute;
+GRANT SELECT(A_use_case1_id) ON A_use_case1 TO protected_attribute;
+GRANT SELECT(A_use_case1_1) ON A_use_case1 TO protected_attribute;
+GRANT SELECT(A_use_case1_2) ON A_use_case1 TO protected_attribute;
+GRANT SELECT(A_use_case1_3) ON A_use_case1 TO protected_attribute;
 --GRANT SELECT(me_test) ON me TO protected_attribute; 
 
 
-GRANT SELECT(home_id) ON home TO protected_attribute;
+GRANT SELECT(B_use_case1_id) ON B_use_case1 TO protected_attribute;
+GRANT SELECT(B_use_case1_1) ON B_use_case1 TO protected_attribute;
+GRANT SELECT(B_use_case1_2) ON B_use_case1 TO protected_attribute;
+GRANT SELECT(B_use_case1_3) ON B_use_case1 TO protected_attribute;
 --GRANT SELECT(home_test) ON home TO protected_attribute;
+
+
+
+GRANT SELECT(A_use_case4_id) ON A_use_case4 to public_attribute;
+GRANT SELECT(B_use_case4_id) ON B_use_case4 to public_attribute;
+GRANT SELECT(B_use_case4_bool) ON B_use_case4 to protected_attribute;
+GRANT SELECT(A_use_case4_bool) ON A_use_case4 to protected_attribute;
+
 --
 
 
