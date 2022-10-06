@@ -46,11 +46,11 @@ CREATE TABLE B_use_case4(
 	B_use_case4_id integer,
 	B_use_case4_bool integer);
 CREATE TABLE B_use_case2(
-	use_case2_id integer,
-	B_use_case2_bool integer);
+	B_use_case2_id integer,
+	B_use_case2_bool character varying );
 CREATE TABLE A_use_case2(
-	use_case2_id integer,
-	A_use_case2_bool integer);
+	A_use_case2_id integer,
+	A_use_case2_bool character varying );
 
 
 
@@ -182,8 +182,8 @@ GRANT SELECT(major_icd9) ON diagnoses TO protected_attribute;
 
 --
 
-GRANT SELECT(use_case2_id) ON A_use_case2 TO protected_attribute;
-GRANT SELECT(use_case2_id) ON B_use_case2 TO protected_attribute;
+GRANT SELECT(A_use_case2_id) ON A_use_case2 TO protected_attribute;
+GRANT SELECT(B_use_case2_id) ON B_use_case2 TO protected_attribute;
 GRANT SELECT(A_use_case2_bool) ON A_use_case2 TO protected_attribute;
 GRANT SELECT(B_use_case2_bool) ON B_use_case2 TO protected_attribute;
 --GRANT SELECT(take_id) ON take TO protected_attribute;
