@@ -1,0 +1,366 @@
+test123
+Populating test databases...
+Using test data from /home/smcql_
+Creating test database...
+CREATE TABLE
+CREATE TABLE
+DROP TABLE
+CREATE TABLE
+DROP TABLE
+CREATE TABLE
+DROP TABLE
+CREATE TABLE
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+DROP TABLE
+SELECT 0
+DROP TABLE
+SELECT 0
+DROP TABLE
+SELECT 0
+DROP TABLE
+SELECT 0
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+DROP TABLE
+SELECT 0
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+CREATE TABLE
+CREATE TABLE
+DROP TABLE
+CREATE TABLE
+DROP TABLE
+CREATE TABLE
+DROP TABLE
+CREATE TABLE
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+DROP TABLE
+SELECT 0
+DROP TABLE
+SELECT 0
+DROP TABLE
+SELECT 0
+DROP TABLE
+SELECT 0
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+DROP TABLE
+SELECT 0
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+COPY 8
+COPY 2
+COPY 1
+COPY 10
+COPY 10
+COPY 4
+COPY 4
+COPY 4
+COPY 4
+COPY 8
+SELECT 4
+SELECT 4
+SELECT 0
+DROP TABLE
+SELECT 6
+DROP TABLE
+SELECT 6
+DROP TABLE
+SELECT 8
+DROP TABLE
+SELECT 8
+DROP TABLE
+SELECT 2
+DROP TABLE
+SELECT 8
+DROP TABLE
+SELECT 8
+DROP TABLE
+SELECT 2
+CREATE TABLE
+CREATE TABLE
+DROP TABLE
+CREATE TABLE
+DROP TABLE
+CREATE TABLE
+DROP TABLE
+CREATE TABLE
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+DROP TABLE
+SELECT 0
+DROP TABLE
+SELECT 0
+DROP TABLE
+SELECT 0
+DROP TABLE
+SELECT 0
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+DROP TABLE
+SELECT 0
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+COPY 8
+COPY 2
+COPY 1
+COPY 10
+COPY 10
+COPY 3
+COPY 3
+COPY 3
+COPY 3
+COPY 8
+SELECT 4
+SELECT 4
+SELECT 0
+DROP TABLE
+SELECT 6
+DROP TABLE
+SELECT 6
+DROP TABLE
+SELECT 8
+DROP TABLE
+SELECT 8
+DROP TABLE
+SELECT 2
+DROP TABLE
+SELECT 8
+DROP TABLE
+SELECT 8
+DROP TABLE
+SELECT 2
+Creating executable...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.smcql:smcql-open-source[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding smcql-open-source 0.5[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36msmcql-open-source[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:compile[m [1m(default-compile)[m @ [36msmcql-open-source[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36msmcql-open-source[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:testCompile[m [1m(default-testCompile)[m @ [36msmcql-open-source[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36msmcql-open-source[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.6:jar[m [1m(default-jar)[m @ [36msmcql-open-source[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-source-plugin:3.0.1:jar[m [1m(attach-sources)[0;1m > [0;1mgenerate-sources[m @ [36msmcql-open-source[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-source-plugin:3.0.1:jar[m [1m(attach-sources)[0;1m < [0;1mgenerate-sources[m @ [36msmcql-open-source[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.0.1:jar[m [1m(attach-sources)[m @ [36msmcql-open-source[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/smcql_/target/smcql-open-source-0.5-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.6:test-jar[m [1m(default)[m @ [36msmcql-open-source[0;1m ---[m
+[[1;34mINFO[m] Skipping packaging of the test-jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.0.0:copy-dependencies[m [1m(copy-dependencies)[m @ [36msmcql-open-source[0;1m ---[m
+[[1;34mINFO[m] org.apache.calcite.avatica:avatica-metrics:jar:1.8.0 already exists in destination.
+[[1;34mINFO[m] org.apache.logging.log4j:log4j-api:jar:2.0-beta9 already exists in destination.
+[[1;34mINFO[m] commons-io:commons-io:jar:2.5 already exists in destination.
+[[1;34mINFO[m] org.apache.calcite:calcite-linq4j:jar:1.8.0 already exists in destination.
+[[1;34mINFO[m] com.fasterxml.jackson.core:jackson-core:jar:2.6.3 already exists in destination.
+[[1;34mINFO[m] com.google.code.findbugs:jsr305:jar:1.3.9 already exists in destination.
+[[1;34mINFO[m] log4j:log4j:jar:1.2.17 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-dbcp2:jar:2.1.1 already exists in destination.
+[[1;34mINFO[m] com.google.protobuf:protobuf-java:jar:3.0.0-beta-1 already exists in destination.
+[[1;34mINFO[m] org.postgresql:postgresql:jar:9.4.1208.jre7 already exists in destination.
+[[1;34mINFO[m] commons-lang:commons-lang:jar:2.4 already exists in destination.
+[[1;34mINFO[m] org.codehaus.janino:janino:jar:2.7.6 already exists in destination.
+[[1;34mINFO[m] org.apache.calcite:calcite-core:jar:1.8.0 already exists in destination.
+[[1;34mINFO[m] org.pentaho:pentaho-aggdesigner-algorithm:jar:5.1.5-jhyde already exists in destination.
+[[1;34mINFO[m] org.gridkit.lab:nanocloud:jar:0.8.11 already exists in destination.
+[[1;34mINFO[m] commons-pool:commons-pool:jar:1.5.4 already exists in destination.
+[[1;34mINFO[m] org.apache.calcite.avatica:avatica:jar:1.8.0 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-lang3:jar:3.2 already exists in destination.
+[[1;34mINFO[m] org.codehaus.janino:commons-compiler:jar:2.7.6 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents:httpclient:jar:4.5.2 already exists in destination.
+[[1;34mINFO[m] org.gridkit.lab:telecontrol-ssh:jar:0.8.11 already exists in destination.
+[[1;34mINFO[m] org.slf4j:slf4j-log4j12:jar:1.7.21 already exists in destination.
+[[1;34mINFO[m] org.gridkit.lab:zerormi:jar:0.8.11 already exists in destination.
+[[1;34mINFO[m] org.hamcrest:hamcrest-core:jar:1.3 already exists in destination.
+[[1;34mINFO[m] com.github.jsqlparser:jsqlparser:jar:0.9 already exists in destination.
+[[1;34mINFO[m] commons-dbcp:commons-dbcp:jar:1.4 already exists in destination.
+[[1;34mINFO[m] net.hydromatic:eigenbase-properties:jar:1.1.5 already exists in destination.
+[[1;34mINFO[m] commons-codec:commons-codec:jar:1.9 already exists in destination.
+[[1;34mINFO[m] org.slf4j:slf4j-api:jar:1.7.13 already exists in destination.
+[[1;34mINFO[m] junit:junit:jar:4.12 already exists in destination.
+[[1;34mINFO[m] com.fasterxml.jackson.core:jackson-annotations:jar:2.6.3 already exists in destination.
+[[1;34mINFO[m] com.google.guava:guava:jar:18.0 already exists in destination.
+[[1;34mINFO[m] commons-logging:commons-logging:jar:1.2 already exists in destination.
+[[1;34mINFO[m] net.sourceforge.argparse4j:argparse4j:jar:0.2.0 already exists in destination.
+[[1;34mINFO[m] org.gridkit.lab:viconcurrent:jar:0.8.11 already exists in destination.
+[[1;34mINFO[m] commons-cli:commons-cli:jar:1.3.1 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-pool2:jar:2.4.2 already exists in destination.
+[[1;34mINFO[m] org.gridkit.lab:vicluster-core:jar:0.8.11 already exists in destination.
+[[1;34mINFO[m] com.fasterxml.jackson.core:jackson-databind:jar:2.6.3 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents:httpcore:jar:4.4.4 already exists in destination.
+[[1;34mINFO[m] org.apache.logging.log4j:log4j-core:jar:2.0-beta9 already exists in destination.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.936 s
+[[1;34mINFO[m] Finished at: 2022-10-06T14:29:47+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Setup completed successfully.

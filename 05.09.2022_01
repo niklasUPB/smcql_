@@ -1,0 +1,45 @@
+Creating executable...
+Executing Query...
+
+Query:
+ SELECT d.major_icd9, count(*) as cnt 
+ FROM cdiff_cohort_diagnoses d 
+ GROUP BY d.major_icd9  
+ ORDER BY count(*) DESC 
+ LIMIT 10
+2022-09-05 12:24:27,729 [ViNode[testDB2] init] ERROR - ViNode[testDB2] initialization has failed
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at org.gridkit.vicluster.telecontrol.Classpath.getClasspath(Classpath.java:54)
+	at org.gridkit.vicluster.telecontrol.GenericNodeTypeHandler$ClasspathReplicaBuilder.buildState(GenericNodeTypeHandler.java:188)
+	at org.gridkit.vicluster.telecontrol.GenericNodeTypeHandler$ClasspathReplicaBuilder.buildState(GenericNodeTypeHandler.java:175)
+	at org.gridkit.vicluster.ViEngine$IdempotentConfigBuilder.process(ViEngine.java:957)
+	at org.gridkit.vicluster.ViEngineGame.play(ViEngineGame.java:57)
+	at org.gridkit.vicluster.ViEngine$Core.processPhase(ViEngine.java:301)
+	at org.gridkit.vicluster.ViEngine$Core.ignite(ViEngine.java:151)
+	at org.gridkit.vicluster.telecontrol.jvm.ViEngineNodeProvider.createNode(ViEngineNodeProvider.java:34)
+	at org.gridkit.vicluster.ViManager$ManagedNode.createNode(ViManager.java:559)
+	at org.gridkit.vicluster.ViManager$ManagedNode.access$900(ViManager.java:298)
+	at org.gridkit.vicluster.ViManager$ManagedNode$InitTask.run(ViManager.java:570)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-09-05 12:24:27,731 [ViNode[testDB1] init] ERROR - ViNode[testDB1] initialization has failed
+java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+	at org.gridkit.vicluster.telecontrol.Classpath.getClasspath(Classpath.java:54)
+	at org.gridkit.vicluster.telecontrol.GenericNodeTypeHandler$ClasspathReplicaBuilder.buildState(GenericNodeTypeHandler.java:188)
+	at org.gridkit.vicluster.telecontrol.GenericNodeTypeHandler$ClasspathReplicaBuilder.buildState(GenericNodeTypeHandler.java:175)
+	at org.gridkit.vicluster.ViEngine$IdempotentConfigBuilder.process(ViEngine.java:957)
+	at org.gridkit.vicluster.ViEngineGame.play(ViEngineGame.java:57)
+	at org.gridkit.vicluster.ViEngine$Core.processPhase(ViEngine.java:301)
+	at org.gridkit.vicluster.ViEngine$Core.ignite(ViEngine.java:151)
+	at org.gridkit.vicluster.telecontrol.jvm.ViEngineNodeProvider.createNode(ViEngineNodeProvider.java:34)
+	at org.gridkit.vicluster.ViManager$ManagedNode.createNode(ViManager.java:559)
+	at org.gridkit.vicluster.ViManager$ManagedNode.access$900(ViManager.java:298)
+	at org.gridkit.vicluster.ViManager$ManagedNode$InitTask.run(ViManager.java:570)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)

@@ -1,0 +1,65 @@
+Creating executable...
+Executing Query...
+
+Query:
+SELECT A_use_case1_id, A_use_case1_1, A_use_case1_2, B_use_case1_id, B_use_case1_1, B_use_case1_2  FROM A_use_case1 JOIN B_use_case1 ON
+A_use_case1_id = B_use_case1_id 
+[testDB2] connecting
+[testDB2] connected
+[testDB2] 
+[testDB2] ********************************
+[testDB2] Data Sent from Client :6381.06233215332MB
+[testDB2] Data Sent to Client :103088.03359603882MB
+[testDB2] ********************************
+[testDB2] Eva running time:14091.078524718
+
+Output:
+(a_use_case1_id, a_use_case1_1, a_use_case1_2)
+[0, 409, 143]
+[0, 0, 0]
+[1, 997, 281]
+[0, 0, 0]
+[2, 549, 807]
+[0, 0, 0]
+[3, 727, 767]
+[0, 0, 0]
+[4, 937, 843]
+[0, 0, 0]
+[5, 432, 310]
+[0, 0, 0]
+[6, 455, 863]
+[0, 0, 0]
+[7, 502, 527]
+[0, 0, 0]
+[8, 159, 655]
+[0, 0, 0]
+[9, 129, 290]
+[0, 0, 0]
+[10, 254, 922]
+[0, 0, 0]
+[11, 437, 481]
+[0, 0, 0]
+
+	Command being timed: "./build_and_execute.sh conf/workload/sql/use_case1.sql testDB1 testDB2"
+	User time (seconds): 35.70
+	System time (seconds): 14.33
+	Percent of CPU this job got: 0%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:55:00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 976676
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1668
+	Minor (reclaiming a frame) page faults: 143238
+	Voluntary context switches: 588991
+	Involuntary context switches: 186994
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 14384
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
