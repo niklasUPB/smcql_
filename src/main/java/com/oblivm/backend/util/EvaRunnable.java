@@ -41,7 +41,7 @@ public abstract  class EvaRunnable<T> extends com.oblivm.backend.network.Client 
 			double e = 0;
 			try {
 				if(verbose)
-					System.out.println("connecting");
+					System.out.println("connecting to " + port  + "with connect");
 	            connect(host, port);
 	            if(verbose)
 	                System.out.println("connected");
